@@ -65,3 +65,7 @@ var crayola1990 = [
  * take advantage of the methods available on stings http://www.w3schools.com/js/js_string_methods.asp
  * there are multiple ways to do something like this but you might consider using split and join
  */ 
+ for (var i = 0; i < crayola1990.length; i++) {
+ 	crayola1990[i] = crayola1990[i].toLowerCase();
+ 	crayola1990[i] = crayola1990[i].replace(/ /g,"-");
+ }
